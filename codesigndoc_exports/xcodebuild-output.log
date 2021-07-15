@@ -1,8 +1,8 @@
 Command line invocation:
-    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/ajaib/Desktop/Workspace/deployment/DeployTest.xcworkspace -scheme DeployTest clean archive -archivePath /var/folders/s4/flxlkvhd3bx4cvfccwpxz0vh0000gn/T/__codesigndoc__246999759/DeployTest.xcarchive
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/ajaib/Desktop/Workspace/deployment/DeployTest.xcworkspace -scheme DeployTestDev clean archive -archivePath /var/folders/s4/flxlkvhd3bx4cvfccwpxz0vh0000gn/T/__codesigndoc__292694603/DeployTestDev.xcarchive
 
 User defaults from command line:
-    IDEArchivePathOverride = /var/folders/s4/flxlkvhd3bx4cvfccwpxz0vh0000gn/T/__codesigndoc__246999759/DeployTest.xcarchive
+    IDEArchivePathOverride = /var/folders/s4/flxlkvhd3bx4cvfccwpxz0vh0000gn/T/__codesigndoc__292694603/DeployTestDev.xcarchive
     IDEPackageSupportUseBuiltinSCM = YES
 
 note: Using new build system
@@ -17,6 +17,9 @@ note: Planning build
 note: Analyzing workspace
 note: Constructing build description
 note: Build preparation complete
+error: Provisioning profile "iOS Team Provisioning Profile: *" doesn't include signing certificate "Apple Development: william william (LWCRTJRSYN)". (in target 'DeployTest' from project 'DeployTest')
 error: Provisioning profile "iOS Team Provisioning Profile: *" doesn't include the currently selected device "Ajaib’s MacBook Air" (identifier 474198BF-4964-5D86-BA73-FB855E235276). (in target 'DeployTest' from project 'DeployTest')
+error: Provisioning profile "iOS Team Provisioning Profile: *" doesn't include signing certificate "Apple Development: william william (LWCRTJRSYN)". (in target 'DeployTestDev' from project 'DeployTest')
+error: Provisioning profile "iOS Team Provisioning Profile: *" doesn't include the currently selected device "Ajaib’s MacBook Air" (identifier 474198BF-4964-5D86-BA73-FB855E235276). (in target 'DeployTestDev' from project 'DeployTest')
 
 ** ARCHIVE FAILED **
