@@ -8,12 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var schemeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        schemeLabel.text = Bundle.main.infoDictionary?["SchemeName"] as? String
     }
-
-
 }
 
