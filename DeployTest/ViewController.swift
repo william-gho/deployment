@@ -14,7 +14,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         schemeLabel.text = Bundle.main.infoDictionary!["CURRENT_SCHEME_NAME"] as! String
-
     }
 }
-

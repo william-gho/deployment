@@ -30,8 +30,8 @@
 		356EF63426A0355100F2371B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63226A0355100F2371B /* Main.storyboard */; };
 		356EF63626A0355300F2371B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63526A0355300F2371B /* Assets.xcassets */; };
 		356EF63926A0355300F2371B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63726A0355300F2371B /* LaunchScreen.storyboard */; };
-		35C873E426A03F21006D8A88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E326A03F21006D8A88 /* GoogleService-Info.plist */; };
-		35C873E626A03F5F006D8A88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */; };
+		35C873E426A03F21006D8A88 /* GoogleServiceDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */; };
+		35C873E626A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */; };
 		4BAA2873D47F14E5E6A39AE9 /* Pods_DeployTestSandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54EE51CCFF93C8A6D185E63 /* Pods_DeployTestSandbox.framework */; };
 		652CDE72C2A7E42E349D9D1A /* Pods_DeployTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEDF53FBD0AF6F883B386D9 /* Pods_DeployTest.framework */; };
 		C7B0D510866833BBD5AE64B2 /* Pods_DeployTestDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6AE1A93FA23E33262B4807 /* Pods_DeployTestDev.framework */; };
@@ -54,8 +54,8 @@
 		356EF63826A0355300F2371B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356EF63A26A0355300F2371B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356EF64026A036CB00F2371B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		35C873E326A03F21006D8A88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceDev-Info.plist"; sourceTree = "<group>"; };
+		35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceSandbox-Info.plist"; sourceTree = "<group>"; };
 		39FCAE72AC445AD46B956248 /* Pods-DeployTestSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTestSandbox.debug.xcconfig"; path = "Target Support Files/Pods-DeployTestSandbox/Pods-DeployTestSandbox.debug.xcconfig"; sourceTree = "<group>"; };
 		8B6AE1A93FA23E33262B4807 /* Pods_DeployTestDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeployTestDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEDF53FBD0AF6F883B386D9 /* Pods_DeployTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeployTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +115,7 @@
 		356CBA4326A03B540004469F /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				35C873E326A03F21006D8A88 /* GoogleService-Info.plist */,
+				35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 		356CBA4426A03B580004469F /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */,
+				35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */,
 			);
 			path = Sandbox;
 			sourceTree = "<group>";
@@ -297,7 +297,7 @@
 			files = (
 				356CBA2026A03A8D0004469F /* LaunchScreen.storyboard in Resources */,
 				356CBA2126A03A8D0004469F /* GoogleService-Info.plist in Resources */,
-				35C873E426A03F21006D8A88 /* GoogleService-Info.plist in Resources */,
+				35C873E426A03F21006D8A88 /* GoogleServiceDev-Info.plist in Resources */,
 				356CBA2226A03A8D0004469F /* Assets.xcassets in Resources */,
 				356CBA2326A03A8D0004469F /* Main.storyboard in Resources */,
 			);
@@ -309,7 +309,7 @@
 			files = (
 				356CBA3526A03A9C0004469F /* LaunchScreen.storyboard in Resources */,
 				356CBA3626A03A9C0004469F /* GoogleService-Info.plist in Resources */,
-				35C873E626A03F5F006D8A88 /* GoogleService-Info.plist in Resources */,
+				35C873E626A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist in Resources */,
 				356CBA3726A03A9C0004469F /* Assets.xcassets in Resources */,
 				356CBA3826A03A9C0004469F /* Main.storyboard in Resources */,
 			);
