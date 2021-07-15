@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        schemeLabel.text = Bundle.main.infoDictionary?["SchemeName"] as? String
+        schemeLabel.text = Bundle.main.infoDictionary!["CURRENT_SCHEME_NAME"] as! String
+
     }
 }
 

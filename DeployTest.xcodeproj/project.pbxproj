@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352A2C4626A0696700C20701 /* DeployTestDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */; };
+		352A2C4726A0696700C20701 /* DeployTestSandbox-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */; };
 		356CBA1A26A03A8D0004469F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF63026A0355100F2371B /* ViewController.swift */; };
 		356CBA1B26A03A8D0004469F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF62C26A0355100F2371B /* AppDelegate.swift */; };
 		356CBA1C26A03A8D0004469F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF62E26A0355100F2371B /* SceneDelegate.swift */; };
@@ -39,10 +41,10 @@
 /* Begin PBXFileReference section */
 		1188094B7AC0AA79771882BB /* Pods-DeployTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTest.debug.xcconfig"; path = "Target Support Files/Pods-DeployTest/Pods-DeployTest.debug.xcconfig"; sourceTree = "<group>"; };
 		2A3AB495B7B63FB9D4DA94F9 /* Pods-DeployTestSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTestSandbox.release.xcconfig"; path = "Target Support Files/Pods-DeployTestSandbox/Pods-DeployTestSandbox.release.xcconfig"; sourceTree = "<group>"; };
+		352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeployTestDev-Info.plist"; sourceTree = "<group>"; };
+		352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeployTestSandbox-Info.plist"; sourceTree = "<group>"; };
 		356CBA2A26A03A8D0004469F /* DeployTestDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTestDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356CBA2B26A03A8D0004469F /* DeployTestDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DeployTestDev-Info.plist"; path = "/Users/ajaib/Desktop/Workspace/deployment/DeployTestDev-Info.plist"; sourceTree = "<absolute>"; };
 		356CBA3F26A03A9C0004469F /* DeployTestSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTestSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356CBA4026A03A9C0004469F /* DeployTestSandbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DeployTestSandbox-Info.plist"; path = "/Users/ajaib/Desktop/Workspace/deployment/DeployTestSandbox-Info.plist"; sourceTree = "<absolute>"; };
 		356EF62926A0355100F2371B /* DeployTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356EF62C26A0355100F2371B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356EF62E26A0355100F2371B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,9 +166,9 @@
 		35C873E026A03D70006D8A88 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */,
+				352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */,
 				356EF63A26A0355300F2371B /* Info.plist */,
-				356CBA2B26A03A8D0004469F /* DeployTestDev-Info.plist */,
-				356CBA4026A03A9C0004469F /* DeployTestSandbox-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -318,9 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				356CBA4526A03BB00004469F /* GoogleService-Info.plist in Resources */,
+				352A2C4626A0696700C20701 /* DeployTestDev-Info.plist in Resources */,
 				356EF63926A0355300F2371B /* LaunchScreen.storyboard in Resources */,
 				356EF63626A0355300F2371B /* Assets.xcassets in Resources */,
 				356EF63426A0355100F2371B /* Main.storyboard in Resources */,
+				352A2C4726A0696700C20701 /* DeployTestSandbox-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,8 +510,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestDev;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,8 +531,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestDev;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,8 +552,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestSandbox;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestSandbox-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestSandbox-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,8 +573,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestSandbox;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestSandbox-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestSandbox-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -702,6 +710,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTest;
 				DEVELOPMENT_TEAM = KG284H47PH;
 				INFOPLIST_FILE = DeployTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -722,6 +731,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTest;
 				DEVELOPMENT_TEAM = KG284H47PH;
 				INFOPLIST_FILE = DeployTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
