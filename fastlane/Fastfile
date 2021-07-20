@@ -1,0 +1,43 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Fetch Certificate"
+  lane :certs do
+    match(
+      app_identifier: "me.william.DeployTest",
+      type: "development", 
+      readonly: true
+    )
+  end
+
+  desc "Distribute DeployTest"
+  lane :dist_deploytest do
+    certs
+    gym(
+      workspace: "DeployTest.xcworkspace",
+      scheme: "DeployTest",
+      export_xcargs: "-allowProvisioningUpdates",
+      export_method: "development",
+      clean: true
+    )
+    firebase_app_distribution(
+      app: "1:919208220372:ios:da94229a6098ee2d9ccd41",
+      release_notes: "testing"
+    )
+  end
+end

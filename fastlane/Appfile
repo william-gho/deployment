@@ -1,0 +1,8 @@
+app_identifier("me.william.DeployTest") # The bundle identifier of your app
+team_id("KG284H47PH")
+
+for_platform :ios do
+    for_lane :dist_deployTest do
+        app_identifier("me.william.DeployTest")
+    end
+end
