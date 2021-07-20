@@ -16,16 +16,11 @@ or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
-### ios certs
+### ios local_deployment
 ```
-fastlane ios certs
+fastlane ios local_deployment
 ```
-Fetch Certificate
-### ios dist_deploytest
-```
-fastlane ios dist_deploytest
-```
-Distribute DeployTest
+Local Machine - create in house build using local machine
 
 ----
 
