@@ -48,6 +48,7 @@ playground.xcworkspace
 
 .build/
 .manualdeployment.enc
+.autodeployment.sh
 
 # CocoaPods
 #
