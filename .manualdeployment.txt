@@ -1,0 +1,6 @@
+FASTLANE_USER = "william@ajaib.co.id"
+FASTLANE_PASSWORD = "Ajaib123"
+MATCH_PASSWORD = "Testing1234"
+MATCH_KEYCHAIN_PASSWORD = "Ajaib123"
+APP_CENTER_API_TOKEN = "61a1fddee1d5e807091f90d4fe4c2be4053fbb50"
+apple_application_specific_password = "tynv-merb-szas-fnmh"

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352A2C4626A0696700C20701 /* DeployTestDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */; };
+		352A2C4726A0696700C20701 /* DeployTestSandbox-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */; };
 		356CBA1A26A03A8D0004469F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF63026A0355100F2371B /* ViewController.swift */; };
 		356CBA1B26A03A8D0004469F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF62C26A0355100F2371B /* AppDelegate.swift */; };
 		356CBA1C26A03A8D0004469F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF62E26A0355100F2371B /* SceneDelegate.swift */; };
@@ -28,8 +30,8 @@
 		356EF63426A0355100F2371B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63226A0355100F2371B /* Main.storyboard */; };
 		356EF63626A0355300F2371B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63526A0355300F2371B /* Assets.xcassets */; };
 		356EF63926A0355300F2371B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63726A0355300F2371B /* LaunchScreen.storyboard */; };
-		35C873E426A03F21006D8A88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E326A03F21006D8A88 /* GoogleService-Info.plist */; };
-		35C873E626A03F5F006D8A88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */; };
+		35C873E426A03F21006D8A88 /* GoogleServiceDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */; };
+		35C873E626A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */; };
 		4BAA2873D47F14E5E6A39AE9 /* Pods_DeployTestSandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54EE51CCFF93C8A6D185E63 /* Pods_DeployTestSandbox.framework */; };
 		652CDE72C2A7E42E349D9D1A /* Pods_DeployTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEDF53FBD0AF6F883B386D9 /* Pods_DeployTest.framework */; };
 		C7B0D510866833BBD5AE64B2 /* Pods_DeployTestDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6AE1A93FA23E33262B4807 /* Pods_DeployTestDev.framework */; };
@@ -39,10 +41,10 @@
 /* Begin PBXFileReference section */
 		1188094B7AC0AA79771882BB /* Pods-DeployTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTest.debug.xcconfig"; path = "Target Support Files/Pods-DeployTest/Pods-DeployTest.debug.xcconfig"; sourceTree = "<group>"; };
 		2A3AB495B7B63FB9D4DA94F9 /* Pods-DeployTestSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTestSandbox.release.xcconfig"; path = "Target Support Files/Pods-DeployTestSandbox/Pods-DeployTestSandbox.release.xcconfig"; sourceTree = "<group>"; };
+		352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeployTestDev-Info.plist"; sourceTree = "<group>"; };
+		352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeployTestSandbox-Info.plist"; sourceTree = "<group>"; };
 		356CBA2A26A03A8D0004469F /* DeployTestDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTestDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356CBA2B26A03A8D0004469F /* DeployTestDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DeployTestDev-Info.plist"; path = "/Users/ajaib/Desktop/Workspace/deployment/DeployTestDev-Info.plist"; sourceTree = "<absolute>"; };
 		356CBA3F26A03A9C0004469F /* DeployTestSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTestSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356CBA4026A03A9C0004469F /* DeployTestSandbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DeployTestSandbox-Info.plist"; path = "/Users/ajaib/Desktop/Workspace/deployment/DeployTestSandbox-Info.plist"; sourceTree = "<absolute>"; };
 		356EF62926A0355100F2371B /* DeployTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356EF62C26A0355100F2371B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356EF62E26A0355100F2371B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +54,8 @@
 		356EF63826A0355300F2371B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356EF63A26A0355300F2371B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356EF64026A036CB00F2371B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		35C873E326A03F21006D8A88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceDev-Info.plist"; sourceTree = "<group>"; };
+		35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceSandbox-Info.plist"; sourceTree = "<group>"; };
 		39FCAE72AC445AD46B956248 /* Pods-DeployTestSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTestSandbox.debug.xcconfig"; path = "Target Support Files/Pods-DeployTestSandbox/Pods-DeployTestSandbox.debug.xcconfig"; sourceTree = "<group>"; };
 		8B6AE1A93FA23E33262B4807 /* Pods_DeployTestDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeployTestDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEDF53FBD0AF6F883B386D9 /* Pods_DeployTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeployTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +115,7 @@
 		356CBA4326A03B540004469F /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				35C873E326A03F21006D8A88 /* GoogleService-Info.plist */,
+				35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
@@ -121,7 +123,7 @@
 		356CBA4426A03B580004469F /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */,
+				35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */,
 			);
 			path = Sandbox;
 			sourceTree = "<group>";
@@ -164,9 +166,9 @@
 		35C873E026A03D70006D8A88 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */,
+				352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */,
 				356EF63A26A0355300F2371B /* Info.plist */,
-				356CBA2B26A03A8D0004469F /* DeployTestDev-Info.plist */,
-				356CBA4026A03A9C0004469F /* DeployTestSandbox-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -295,7 +297,7 @@
 			files = (
 				356CBA2026A03A8D0004469F /* LaunchScreen.storyboard in Resources */,
 				356CBA2126A03A8D0004469F /* GoogleService-Info.plist in Resources */,
-				35C873E426A03F21006D8A88 /* GoogleService-Info.plist in Resources */,
+				35C873E426A03F21006D8A88 /* GoogleServiceDev-Info.plist in Resources */,
 				356CBA2226A03A8D0004469F /* Assets.xcassets in Resources */,
 				356CBA2326A03A8D0004469F /* Main.storyboard in Resources */,
 			);
@@ -307,7 +309,7 @@
 			files = (
 				356CBA3526A03A9C0004469F /* LaunchScreen.storyboard in Resources */,
 				356CBA3626A03A9C0004469F /* GoogleService-Info.plist in Resources */,
-				35C873E626A03F5F006D8A88 /* GoogleService-Info.plist in Resources */,
+				35C873E626A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist in Resources */,
 				356CBA3726A03A9C0004469F /* Assets.xcassets in Resources */,
 				356CBA3826A03A9C0004469F /* Main.storyboard in Resources */,
 			);
@@ -318,9 +320,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				356CBA4526A03BB00004469F /* GoogleService-Info.plist in Resources */,
+				352A2C4626A0696700C20701 /* DeployTestDev-Info.plist in Resources */,
 				356EF63926A0355300F2371B /* LaunchScreen.storyboard in Resources */,
 				356EF63626A0355300F2371B /* Assets.xcassets in Resources */,
 				356EF63426A0355100F2371B /* Main.storyboard in Resources */,
+				352A2C4726A0696700C20701 /* DeployTestSandbox-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,8 +510,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestDev;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,8 +531,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestDev;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,8 +552,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestSandbox;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestSandbox-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestSandbox-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,8 +573,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestSandbox;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestSandbox-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestSandbox-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -685,7 +693,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -701,7 +709,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_SCHEME_NAME = DeployTest;
 				DEVELOPMENT_TEAM = KG284H47PH;
 				INFOPLIST_FILE = DeployTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -710,6 +720,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.william.DeployTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_me.william.DeployTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -721,7 +732,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_SCHEME_NAME = DeployTest;
 				DEVELOPMENT_TEAM = KG284H47PH;
 				INFOPLIST_FILE = DeployTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -730,6 +743,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.william.DeployTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_me.william.DeployTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

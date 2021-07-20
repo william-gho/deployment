@@ -1,0 +1,4 @@
+git_url("git@github.com:william-gho/certificates.git")
+git_branch("main")
+storage_mode("git")
+type("development")

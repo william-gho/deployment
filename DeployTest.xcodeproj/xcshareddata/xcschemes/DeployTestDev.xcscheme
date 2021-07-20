@@ -44,12 +44,21 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "356CBA1726A03A8D0004469F"
+            BuildableName = "DeployTestDev.app"
+            BlueprintName = "DeployTestDev"
+            ReferencedContainer = "container:DeployTest.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "356EF62826A0355000F2371B"
             BuildableName = "DeployTest.app"
             BlueprintName = "DeployTest"
             ReferencedContainer = "container:DeployTest.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -61,9 +70,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "356EF62826A0355000F2371B"
-            BuildableName = "DeployTest.app"
-            BlueprintName = "DeployTest"
+            BlueprintIdentifier = "356CBA1726A03A8D0004469F"
+            BuildableName = "DeployTestDev.app"
+            BlueprintName = "DeployTestDev"
             ReferencedContainer = "container:DeployTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
