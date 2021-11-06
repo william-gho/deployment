@@ -2,14 +2,20 @@
 platform :ios, '10.0'
 
 use_frameworks!
-target 'DeployTest' do
+
+def firebase
   pod 'Firebase/Analytics'
+  pod 'Firebase/Crashlytics'
+end
+
+target 'DeployTest' do
+  firebase
 end
 
 target 'DeployTestDev' do
-  pod 'Firebase/Analytics'
+  firebase
 end
 
 target 'DeployTestSandbox' do
-  pod 'Firebase/Analytics'
+  firebase
 end
