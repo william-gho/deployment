@@ -1,0 +1,67 @@
+default_platform(:ios)
+# def setEnvironmentVariable
+#   # local deployment need to provide the passphrase to decrypt deployment secret
+#   # Check if `manualdeployment` decrypted exist in the root folder
+#   if !File.exist?("../.manualdeployment.txt")
+#   # Decrypt
+#   sh("openssl enc -d -aes-256-cbc -in ../.manualdeployment.enc -out ../.manualdeployment.txt")
+#   # Read file
+#   File.readlines("../.manualdeployment.txt").each do |line|
+#     key,value = line.chomp.split("=")
+#     ENV["#{key}"] = value
+#   end
+# end
+
+platform :ios do
+  desc "Local Machine - create in house build using local machine"
+  lane :local_deployment do
+    begin
+      # retrieve build number
+      buildNumber = get_info_plist_value(
+        path: "DeployTest/Resources/Info.plist",
+        key: "CFBundleVersion"
+      )
+
+      versionNumber = get_version_number(target: "DeployTest")
+
+      # fetch provisioning profile
+      match(
+        app_identifier: "me.william.DeployTest",
+        type: "development", 
+        readonly: true
+      )
+      # app_identifier: ["bundle_id", "extension_bundle_id"]
+
+      # archive
+      gym(
+        workspace: "DeployTest.xcworkspace",
+        scheme: "DeployTest",
+        export_xcargs: "-allowProvisioningUpdates",
+        export_method: "development",
+        clean: true,
+        output_directory: "./builds/dev/#{versionNumber}.#{buildNumber}",
+        output_name: "DeployTest.ipa"
+      )
+
+      # # submit to AppCenter
+      # appcenter_upload(
+      #   api_token: "#{ENV["APP_CENTER_API_TOKEN"]}",
+      #   owner_name: "william",
+      #   app_name: "DeployTest",
+      #   ipa: "./builds/dev/#{versionNumber}.#{buildNumber}/DeployTest.ipa",
+      #   destinations: "*",
+      #   notify_testers: true,
+      #   release_notes: "Build Number: #{buildNumber}"
+      # )
+
+      firebase_app_distribution(
+        app: "1:919208220372:ios:da94229a6098ee2d9ccd41",
+        release_notes: "testing"
+      )
+
+      rescue => exception
+        puts exception
+      end
+    end
+  # end
+end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352A2C4626A0696700C20701 /* DeployTestDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */; };
+		352A2C4726A0696700C20701 /* DeployTestSandbox-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */; };
+		354ADCC9273CC1B900B9B74D /* DeployTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354ADCC8273CC1B900B9B74D /* DeployTestTests.swift */; };
 		356CBA1A26A03A8D0004469F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF63026A0355100F2371B /* ViewController.swift */; };
 		356CBA1B26A03A8D0004469F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF62C26A0355100F2371B /* AppDelegate.swift */; };
 		356CBA1C26A03A8D0004469F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EF62E26A0355100F2371B /* SceneDelegate.swift */; };
@@ -28,21 +31,33 @@
 		356EF63426A0355100F2371B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63226A0355100F2371B /* Main.storyboard */; };
 		356EF63626A0355300F2371B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63526A0355300F2371B /* Assets.xcassets */; };
 		356EF63926A0355300F2371B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356EF63726A0355300F2371B /* LaunchScreen.storyboard */; };
-		35C873E426A03F21006D8A88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E326A03F21006D8A88 /* GoogleService-Info.plist */; };
-		35C873E626A03F5F006D8A88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */; };
+		35C873E426A03F21006D8A88 /* GoogleServiceDev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */; };
+		35C873E626A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */; };
 		4BAA2873D47F14E5E6A39AE9 /* Pods_DeployTestSandbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C54EE51CCFF93C8A6D185E63 /* Pods_DeployTestSandbox.framework */; };
 		652CDE72C2A7E42E349D9D1A /* Pods_DeployTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CEDF53FBD0AF6F883B386D9 /* Pods_DeployTest.framework */; };
 		C7B0D510866833BBD5AE64B2 /* Pods_DeployTestDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B6AE1A93FA23E33262B4807 /* Pods_DeployTestDev.framework */; };
 		FA9C7E4FF013C606613F717C /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		354ADCCA273CC1B900B9B74D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 356EF62126A0355000F2371B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 356EF62826A0355000F2371B;
+			remoteInfo = DeployTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1188094B7AC0AA79771882BB /* Pods-DeployTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTest.debug.xcconfig"; path = "Target Support Files/Pods-DeployTest/Pods-DeployTest.debug.xcconfig"; sourceTree = "<group>"; };
 		2A3AB495B7B63FB9D4DA94F9 /* Pods-DeployTestSandbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTestSandbox.release.xcconfig"; path = "Target Support Files/Pods-DeployTestSandbox/Pods-DeployTestSandbox.release.xcconfig"; sourceTree = "<group>"; };
+		352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeployTestDev-Info.plist"; sourceTree = "<group>"; };
+		352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DeployTestSandbox-Info.plist"; sourceTree = "<group>"; };
+		354ADCC6273CC1B900B9B74D /* DeployTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeployTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354ADCC8273CC1B900B9B74D /* DeployTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeployTestTests.swift; sourceTree = "<group>"; };
 		356CBA2A26A03A8D0004469F /* DeployTestDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTestDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356CBA2B26A03A8D0004469F /* DeployTestDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DeployTestDev-Info.plist"; path = "/Users/ajaib/Desktop/Workspace/deployment/DeployTestDev-Info.plist"; sourceTree = "<absolute>"; };
 		356CBA3F26A03A9C0004469F /* DeployTestSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTestSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		356CBA4026A03A9C0004469F /* DeployTestSandbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DeployTestSandbox-Info.plist"; path = "/Users/ajaib/Desktop/Workspace/deployment/DeployTestSandbox-Info.plist"; sourceTree = "<absolute>"; };
 		356EF62926A0355100F2371B /* DeployTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		356EF62C26A0355100F2371B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		356EF62E26A0355100F2371B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +67,8 @@
 		356EF63826A0355300F2371B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		356EF63A26A0355300F2371B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		356EF64026A036CB00F2371B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		35C873E326A03F21006D8A88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceDev-Info.plist"; sourceTree = "<group>"; };
+		35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleServiceSandbox-Info.plist"; sourceTree = "<group>"; };
 		39FCAE72AC445AD46B956248 /* Pods-DeployTestSandbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeployTestSandbox.debug.xcconfig"; path = "Target Support Files/Pods-DeployTestSandbox/Pods-DeployTestSandbox.debug.xcconfig"; sourceTree = "<group>"; };
 		8B6AE1A93FA23E33262B4807 /* Pods_DeployTestDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeployTestDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEDF53FBD0AF6F883B386D9 /* Pods_DeployTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeployTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +79,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		354ADCC3273CC1B900B9B74D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		356CBA1D26A03A8D0004469F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -92,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354ADCC7273CC1B900B9B74D /* DeployTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				354ADCC8273CC1B900B9B74D /* DeployTestTests.swift */,
+			);
+			path = DeployTestTests;
+			sourceTree = "<group>";
+		};
 		356CBA4126A03B0A0004469F /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +143,7 @@
 		356CBA4326A03B540004469F /* Dev */ = {
 			isa = PBXGroup;
 			children = (
-				35C873E326A03F21006D8A88 /* GoogleService-Info.plist */,
+				35C873E326A03F21006D8A88 /* GoogleServiceDev-Info.plist */,
 			);
 			path = Dev;
 			sourceTree = "<group>";
@@ -121,7 +151,7 @@
 		356CBA4426A03B580004469F /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
-				35C873E526A03F5F006D8A88 /* GoogleService-Info.plist */,
+				35C873E526A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist */,
 			);
 			path = Sandbox;
 			sourceTree = "<group>";
@@ -130,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				356EF62B26A0355100F2371B /* DeployTest */,
+				354ADCC7273CC1B900B9B74D /* DeployTestTests */,
 				356EF62A26A0355100F2371B /* Products */,
 				ABD1104DCF18A660AF6CF4B9 /* Pods */,
 				B4AD02CC4F8B7A261F868DC5 /* Frameworks */,
@@ -142,6 +173,7 @@
 				356EF62926A0355100F2371B /* DeployTest.app */,
 				356CBA2A26A03A8D0004469F /* DeployTestDev.app */,
 				356CBA3F26A03A9C0004469F /* DeployTestSandbox.app */,
+				354ADCC6273CC1B900B9B74D /* DeployTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,9 +196,9 @@
 		35C873E026A03D70006D8A88 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				352A2C4426A0696700C20701 /* DeployTestDev-Info.plist */,
+				352A2C4526A0696700C20701 /* DeployTestSandbox-Info.plist */,
 				356EF63A26A0355300F2371B /* Info.plist */,
-				356CBA2B26A03A8D0004469F /* DeployTestDev-Info.plist */,
-				356CBA4026A03A9C0004469F /* DeployTestSandbox-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -197,6 +229,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		354ADCC5273CC1B900B9B74D /* DeployTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354ADCCE273CC1B900B9B74D /* Build configuration list for PBXNativeTarget "DeployTestTests" */;
+			buildPhases = (
+				354ADCC2273CC1B900B9B74D /* Sources */,
+				354ADCC3273CC1B900B9B74D /* Frameworks */,
+				354ADCC4273CC1B900B9B74D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354ADCCB273CC1B900B9B74D /* PBXTargetDependency */,
+			);
+			name = DeployTestTests;
+			productName = DeployTestTests;
+			productReference = 354ADCC6273CC1B900B9B74D /* DeployTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		356CBA1726A03A8D0004469F /* DeployTestDev */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 356CBA2526A03A8D0004469F /* Build configuration list for PBXNativeTarget "DeployTestDev" */;
@@ -260,9 +310,13 @@
 		356EF62126A0355000F2371B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					354ADCC5273CC1B900B9B74D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 356EF62826A0355000F2371B;
+					};
 					356EF62826A0355000F2371B = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -284,18 +338,26 @@
 				356EF62826A0355000F2371B /* DeployTest */,
 				356CBA1726A03A8D0004469F /* DeployTestDev */,
 				356CBA2C26A03A9C0004469F /* DeployTestSandbox */,
+				354ADCC5273CC1B900B9B74D /* DeployTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		354ADCC4273CC1B900B9B74D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		356CBA1F26A03A8D0004469F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				356CBA2026A03A8D0004469F /* LaunchScreen.storyboard in Resources */,
 				356CBA2126A03A8D0004469F /* GoogleService-Info.plist in Resources */,
-				35C873E426A03F21006D8A88 /* GoogleService-Info.plist in Resources */,
+				35C873E426A03F21006D8A88 /* GoogleServiceDev-Info.plist in Resources */,
 				356CBA2226A03A8D0004469F /* Assets.xcassets in Resources */,
 				356CBA2326A03A8D0004469F /* Main.storyboard in Resources */,
 			);
@@ -307,7 +369,7 @@
 			files = (
 				356CBA3526A03A9C0004469F /* LaunchScreen.storyboard in Resources */,
 				356CBA3626A03A9C0004469F /* GoogleService-Info.plist in Resources */,
-				35C873E626A03F5F006D8A88 /* GoogleService-Info.plist in Resources */,
+				35C873E626A03F5F006D8A88 /* GoogleServiceSandbox-Info.plist in Resources */,
 				356CBA3726A03A9C0004469F /* Assets.xcassets in Resources */,
 				356CBA3826A03A9C0004469F /* Main.storyboard in Resources */,
 			);
@@ -318,9 +380,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				356CBA4526A03BB00004469F /* GoogleService-Info.plist in Resources */,
+				352A2C4626A0696700C20701 /* DeployTestDev-Info.plist in Resources */,
 				356EF63926A0355300F2371B /* LaunchScreen.storyboard in Resources */,
 				356EF63626A0355300F2371B /* Assets.xcassets in Resources */,
 				356EF63426A0355100F2371B /* Main.storyboard in Resources */,
+				352A2C4726A0696700C20701 /* DeployTestSandbox-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +511,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		354ADCC2273CC1B900B9B74D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354ADCC9273CC1B900B9B74D /* DeployTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		356CBA1926A03A8D0004469F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -479,6 +551,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		354ADCCB273CC1B900B9B74D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 356EF62826A0355000F2371B /* DeployTest */;
+			targetProxy = 354ADCCA273CC1B900B9B74D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		356EF63226A0355100F2371B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -499,6 +579,56 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		354ADCCC273CC1B900B9B74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXSVZF5997;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.william.DeployTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeployTest.app/DeployTest";
+			};
+			name = Debug;
+		};
+		354ADCCD273CC1B900B9B74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BXSVZF5997;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.william.DeployTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeployTest.app/DeployTest";
+			};
+			name = Release;
+		};
 		356CBA2626A03A8D0004469F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C0C72105903C3C9D2EF05516 /* Pods-DeployTestDev.debug.xcconfig */;
@@ -506,8 +636,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestDev;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -526,8 +657,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestDev;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestDev-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestDev-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -546,8 +678,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestSandbox;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestSandbox-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestSandbox-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,8 +699,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_SCHEME_NAME = DeployTestSandbox;
 				DEVELOPMENT_TEAM = KG284H47PH;
-				INFOPLIST_FILE = "$(SRCROOT)/DeployTestSandbox-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/DeployTest/Resources/DeployTestSandbox-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,7 +764,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -685,7 +819,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -701,7 +835,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_SCHEME_NAME = DeployTest;
 				DEVELOPMENT_TEAM = KG284H47PH;
 				INFOPLIST_FILE = DeployTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -710,6 +846,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.william.DeployTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_me.william.DeployTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -721,7 +858,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_SCHEME_NAME = DeployTest;
 				DEVELOPMENT_TEAM = KG284H47PH;
 				INFOPLIST_FILE = DeployTest/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -730,6 +869,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.william.DeployTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Development_me.william.DeployTest;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -738,6 +878,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		354ADCCE273CC1B900B9B74D /* Build configuration list for PBXNativeTarget "DeployTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354ADCCC273CC1B900B9B74D /* Debug */,
+				354ADCCD273CC1B900B9B74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		356CBA2526A03A8D0004469F /* Build configuration list for PBXNativeTarget "DeployTestDev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
